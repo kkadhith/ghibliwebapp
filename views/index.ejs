@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  </style>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@800&display=swap" rel="stylesheet"> 
+
+    <title>Studio Ghibli Films</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel= "stylesheet" href="css/style.css"/>
+    <img src="images/logoapp.png"/>
+
+</head>
+<body>
+        <span class="lv">
+        <% qdata.forEach(function(dat, index) { %>
+            <h1><b><%= dat.title %> (<%= dat.release_date %>)</b></h1>
+            <p><%= dat.description%></p>
+            
+        <% }); %>
+        </span>
+        <span class="sv">
+            <% qdata.forEach(function(dat, index) { %>
+                <h1><b><%= dat.title %> (<%= dat.release_date %>)</b></h1>
+                <p><%= dat.description%></p>
+                
+            <% }); %>
+            </span>
+</body>
+</html>
