@@ -4,9 +4,7 @@
 This is a simple web application that displays information retrived from Studio Ghibli's API using Express and EJS. 
 
 # Background
-
-[Studio Ghibli](https://www.ghibli.jp/) is an animation studio founded by Hayao Miyazaki. Miyazaki's films are traditionally-animated and have been a source of inspiration for directions and animators.
-Some of Studio Ghibli's films include *Spirited Away*, *Princess Mononoke*, and *Ponyo*. This web application displays Studio Ghibli's movies, when they were released, and overviews of each film.
+See: https://en.wikipedia.org/wiki/Studio_Ghibli
 Data is retrieved using the [Studio Ghibli API](https://ghibliapi.herokuapp.com).
 
 # Installation
